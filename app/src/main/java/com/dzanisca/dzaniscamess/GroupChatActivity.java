@@ -70,6 +70,7 @@ public class GroupChatActivity extends AppCompatActivity {
 
     private void SaveMessageInfoToDatabse() {
         String message = inputMessageET.getText().toString();
+
         String messageKey = GroupNameRef.push().getKey();
 
         if(TextUtils.isEmpty(message)){
